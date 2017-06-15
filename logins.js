@@ -10,4 +10,5 @@ alert(JSON.parse(result).user.username);
           alert(JSON.parse(result).user.id);
           alert(JSON.parse(result).flags.has_outstanding_email_confirmation);
          alert(JSON.parse(result).user.thumbnailUrl);
+         alert(JSON.parse(result).flags.must_reset_password);
     }});
